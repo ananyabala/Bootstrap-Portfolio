@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <style>
+        #aboutmeimage {
+            width: 100%;
+            height: auto;
+
+        }
+
+        #buttonstyle {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">About Me</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto" id=floatright>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- End of Navigation -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-4">Hi! I'm Ananya</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <img src="./me.jpg" alt="This is me!" id="aboutmeimage">
+                    </div>
+                    <div class="col-9">
+                        <p class="lead">
+                            I’m a product manager & full-stack web developer who is slowly working to change workflow through empathy. I graduated from
+                            McGill University in 2017 with a Bachelors in Economics and German Language and Literature.</p>
+                        <hr class="my-4">
+                        <p> Having lived in four countries, and speaking four languages has allowed me to center my interactions
+                            and work around empathy, and perspective - two traits which I believe are fundamental for not
+                            only being a good product manager, but also a good leader. As a woman in tech, I want to consistently
+                            create and re-create spaces for women to thrive, seek opportunity and ultimately inspire and
+                            drive impact.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12" id="buttonstyle">
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="./contact.html" role="button">Get in touch</a>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
